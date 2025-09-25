@@ -20,12 +20,49 @@
 
 /* Begin PBXFileReference section */
 		B318FD742E72373A00E48A5D /* cpp_solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_solutions; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ACDA2D2E85458A0099596F /* cpp_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpp_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B3ACDA3F2E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_solutions" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				0547_number_of_provinces.mm,
+			);
+			target = B318FD732E72373A00E48A5D /* cpp_solutions */;
+		};
+		B3ACDA402E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				0547_number_of_provinces.mm,
+			);
+			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
+		};
+		B3ACDA422E8555DB0099596F /* Exceptions for "cpp_solutions" folder in "cpp_tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				problems/0547_number_of_provinces.cpp,
+			);
+			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B318FD762E72373A00E48A5D /* cpp_solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3ACDA422E8555DB0099596F /* Exceptions for "cpp_solutions" folder in "cpp_tests" target */,
+			);
 			path = cpp_solutions;
+			sourceTree = "<group>";
+		};
+		B3ACDA3A2E8545CA0099596F /* cpp_tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3ACDA3F2E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_solutions" target */,
+				B3ACDA402E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_tests" target */,
+			);
+			path = cpp_tests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -38,12 +75,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3ACDA2A2E85458A0099596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B318FD6B2E72373A00E48A5D = {
 			isa = PBXGroup;
 			children = (
+				B3ACDA3A2E8545CA0099596F /* cpp_tests */,
 				B318FD762E72373A00E48A5D /* cpp_solutions */,
 				B318FD752E72373A00E48A5D /* Products */,
 			);
@@ -53,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B318FD742E72373A00E48A5D /* cpp_solutions */,
+				B3ACDA2D2E85458A0099596F /* cpp_tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +120,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B318FD762E72373A00E48A5D /* cpp_solutions */,
+				B3ACDA3A2E8545CA0099596F /* cpp_tests */,
 			);
 			name = cpp_solutions;
 			packageProductDependencies = (
@@ -81,6 +128,25 @@
 			productName = cpp_solutions;
 			productReference = B318FD742E72373A00E48A5D /* cpp_solutions */;
 			productType = "com.apple.product-type.tool";
+		};
+		B3ACDA2C2E85458A0099596F /* cpp_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3ACDA312E85458A0099596F /* Build configuration list for PBXNativeTarget "cpp_tests" */;
+			buildPhases = (
+				B3ACDA292E85458A0099596F /* Sources */,
+				B3ACDA2A2E85458A0099596F /* Frameworks */,
+				B3ACDA2B2E85458A0099596F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cpp_tests;
+			packageProductDependencies = (
+			);
+			productName = cpp_tests;
+			productReference = B3ACDA2D2E85458A0099596F /* cpp_tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -92,6 +158,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					B318FD732E72373A00E48A5D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B3ACDA2C2E85458A0099596F = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -111,12 +180,30 @@
 			projectRoot = "";
 			targets = (
 				B318FD732E72373A00E48A5D /* cpp_solutions */,
+				B3ACDA2C2E85458A0099596F /* cpp_tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		B3ACDA2B2E85458A0099596F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B318FD702E72373A00E48A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ACDA292E85458A0099596F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +344,32 @@
 			};
 			name = Release;
 		};
+		B3ACDA322E85458A0099596F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tesingh.cpp-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		B3ACDA332E85458A0099596F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tesingh.cpp-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -274,6 +387,15 @@
 			buildConfigurations = (
 				B318FD7C2E72373A00E48A5D /* Debug */,
 				B318FD7D2E72373A00E48A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3ACDA312E85458A0099596F /* Build configuration list for PBXNativeTarget "cpp_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ACDA322E85458A0099596F /* Debug */,
+				B3ACDA332E85458A0099596F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

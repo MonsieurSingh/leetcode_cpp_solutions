@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "63B994C7-38AB-473E-AD7A-1129AC5C77D6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:cpp_solutions.xcodeproj",
+      "identifier" : "B318FD732E72373A00E48A5D",
+      "name" : "cpp_solutions"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:cpp_solutions.xcodeproj",
+        "identifier" : "B3ACDA2C2E85458A0099596F",
+        "name" : "cpp_tests"
+      }
+    }
+  ],
+  "version" : 1
+}
