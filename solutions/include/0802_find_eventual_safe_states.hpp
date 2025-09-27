@@ -9,7 +9,6 @@
 #define _802_find_eventual_safe_states_hpp
 
 #include <vector>
-#include <stack>
 
 using namespace std;
 

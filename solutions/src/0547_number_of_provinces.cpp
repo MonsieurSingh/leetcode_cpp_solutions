@@ -5,7 +5,7 @@
 //  Created by Teghjyot Singh on 25/9/2025.
 //
 
-#include "../include/0547_number_of_provinces.hpp"
+#include "0547_number_of_provinces.hpp"
 
 using namespace std;
 

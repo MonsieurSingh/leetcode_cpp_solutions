@@ -21,10 +21,11 @@
 /* Begin PBXFileReference section */
 		B318FD742E72373A00E48A5D /* cpp_solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_solutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3ACDA2D2E85458A0099596F /* cpp_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpp_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ACDA5C2E8805080099596F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B3ACDA3F2E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_solutions" target */ = {
+		B3ACDA3F2E8553850099596F /* Exceptions for "tests" folder in "cpp_solutions" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				0547_number_of_provinces.mm,
@@ -32,7 +33,7 @@
 			);
 			target = B318FD732E72373A00E48A5D /* cpp_solutions */;
 		};
-		B3ACDA402E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_tests" target */ = {
+		B3ACDA402E8553850099596F /* Exceptions for "tests" folder in "cpp_tests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				0547_number_of_provinces.mm,
@@ -40,32 +41,32 @@
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
 		};
-		B3ACDA422E8555DB0099596F /* Exceptions for "cpp_solutions" folder in "cpp_tests" target */ = {
+		B3ACDA422E8555DB0099596F /* Exceptions for "solutions" folder in "cpp_tests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				problems/0547_number_of_provinces.cpp,
-				problems/0802_find_eventual_safe_states.cpp,
+				src/0547_number_of_provinces.cpp,
+				src/0802_find_eventual_safe_states.cpp,
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B318FD762E72373A00E48A5D /* cpp_solutions */ = {
+		B318FD762E72373A00E48A5D /* solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B3ACDA422E8555DB0099596F /* Exceptions for "cpp_solutions" folder in "cpp_tests" target */,
+				B3ACDA422E8555DB0099596F /* Exceptions for "solutions" folder in "cpp_tests" target */,
 			);
-			path = cpp_solutions;
+			path = solutions;
 			sourceTree = "<group>";
 		};
-		B3ACDA3A2E8545CA0099596F /* cpp_tests */ = {
+		B3ACDA3A2E8545CA0099596F /* tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B3ACDA3F2E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_solutions" target */,
-				B3ACDA402E8553850099596F /* Exceptions for "cpp_tests" folder in "cpp_tests" target */,
+				B3ACDA3F2E8553850099596F /* Exceptions for "tests" folder in "cpp_solutions" target */,
+				B3ACDA402E8553850099596F /* Exceptions for "tests" folder in "cpp_tests" target */,
 			);
-			path = cpp_tests;
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -91,8 +92,9 @@
 		B318FD6B2E72373A00E48A5D = {
 			isa = PBXGroup;
 			children = (
-				B3ACDA3A2E8545CA0099596F /* cpp_tests */,
-				B318FD762E72373A00E48A5D /* cpp_solutions */,
+				B3ACDA5C2E8805080099596F /* README.md */,
+				B3ACDA3A2E8545CA0099596F /* tests */,
+				B318FD762E72373A00E48A5D /* solutions */,
 				B318FD752E72373A00E48A5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,8 +124,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B318FD762E72373A00E48A5D /* cpp_solutions */,
-				B3ACDA3A2E8545CA0099596F /* cpp_tests */,
+				B318FD762E72373A00E48A5D /* solutions */,
+				B3ACDA3A2E8545CA0099596F /* tests */,
 			);
 			name = cpp_solutions;
 			packageProductDependencies = (

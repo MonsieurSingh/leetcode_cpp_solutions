@@ -5,10 +5,10 @@
 //  Created by Teghjyot Singh on 25/9/2025.
 //
 
-#ifndef _547_NUMBER_OF_PROVINCES_HPP
-# define _547_NUMBER_OF_PROVINCES_HPP
+#ifndef _547_number_of_provinces_hpp
+#define _547_number_of_provinces_hpp
 
-# include <vector>
+#include <vector>
 
 using namespace std;
 
@@ -20,4 +20,4 @@ public:
 	int		findCircleNum(vector<vector<int>>& is_connected);
 };
 
-# endif
+#endif /* _547_number_of_provinces_hpp */
