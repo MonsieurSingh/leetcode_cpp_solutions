@@ -28,14 +28,12 @@ bool	Solution::dfs(int v, vector<int> &state,
 
 vector<int>	Solution::eventualSafeNodes(vector<vector<int>>& graph)
 {
-	vector<int>			state;
-	vector<int>			stack;
-	int					count;
-	size_t				n;
+	vector<int>	state;
+	vector<int>	stack;
+	size_t		n;
 
 	n = graph.size();
 	state.resize(n, 0);
-	count = 0;
 	for (int i = 0; i < n; i++)
 	{
 		if (dfs(i, state, graph))
