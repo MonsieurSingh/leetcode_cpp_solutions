@@ -28,6 +28,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				0547_number_of_provinces.mm,
+				0802_find_eventual_safe_states.mm,
 			);
 			target = B318FD732E72373A00E48A5D /* cpp_solutions */;
 		};
@@ -35,6 +36,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				0547_number_of_provinces.mm,
+				0802_find_eventual_safe_states.mm,
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
 		};
@@ -42,6 +44,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				problems/0547_number_of_provinces.cpp,
+				problems/0802_find_eventual_safe_states.cpp,
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
 		};
