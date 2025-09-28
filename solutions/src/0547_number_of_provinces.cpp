@@ -7,8 +7,6 @@
 
 #include "0547_number_of_provinces.hpp"
 
-using namespace std;
-
 void	Solution::dfs(int v, vector<bool> &visited,
 			const vector<vector<int>>& graph)
 {

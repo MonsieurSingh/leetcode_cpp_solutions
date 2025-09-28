@@ -7,8 +7,6 @@
 
 #include "0802_find_eventual_safe_states.hpp"
 
-using namespace std;
-
 bool	Solution::dfs(int v, vector<int> &state,
 					  const vector<vector<int>>& graph)
 {

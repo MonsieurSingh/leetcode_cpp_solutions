@@ -6,8 +6,8 @@ This repository contains my solutions to various LeetCode problems in C++. Each 
 
 | Problem Name          | Problem Number | Category/Tags            | Difficulty  | Solution Link                             	| Status  |
 |-----------------------|----------------|--------------------------|-------------|---------------------------------------------|---------|
-| Number of Provinces	| 547            | DFS, BFS, UF, Graph      | Medium      | [Link to C++ Solution](./solutions/src/0547_number_of_provinces.cpp) | ✅       |
-| Find Eventual Safe States	| 802        | DFS, BFS, Graph, Topological Sort  | Medium      | [Link to C++ Solution](./solutions/0802_find_eventual_safe_states.cpp) | ✅       |
+| Number of Provinces | 547 | DFS, BFS, UF, Graph | Medium | [Link to C++ Solution](./solutions/src/0547_number_of_provinces.cpp) | ✅ |
+| Find Eventual Safe States | 802 | DFS, BFS, Graph, Topological Sort | Medium | [Link to C++ Solution](./solutions/src/0802_find_eventual_safe_states.cpp) | ✅ |
 
 ## How to Run C++ Solutions
 
@@ -19,4 +19,3 @@ This repository contains my solutions to various LeetCode problems in C++. Each 
 ## Contribution
 
 Feel free to fork the repository and submit pull requests with any improvements or additional solutions!
-

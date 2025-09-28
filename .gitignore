@@ -1,1 +1,3 @@
-build/*
+build/
+update_readme/
+cpp_solutions.xcodeproj/xcshareddata/xcschemes/update_readme.xcscheme

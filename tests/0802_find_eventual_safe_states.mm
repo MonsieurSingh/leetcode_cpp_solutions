@@ -1,12 +1,12 @@
 //
 //  0802_find_eventual_safe_states.mm
-//  cpp_tests
+//  tests
 //
 //  Created by Teghjyot Singh on 25/9/2025.
 //
 
 #import <XCTest/XCTest.h>
-#include "../cpp_solutions/include/0802_find_eventual_safe_states.hpp"
+#include "0802_find_eventual_safe_states.hpp"
 
 @interface test_0802_find_eventual_safe_states : XCTestCase
 {
@@ -48,7 +48,7 @@
 {
 }
 
-- (void)test_graphs
+- (void)test_0802
 {
 	vector<int>	result;
 	Solution	solution;
@@ -57,16 +57,6 @@
 	XCTAssertEqual(result, expected_1, @"Expected [2,4,5,6]");
 	result = solution.eventualSafeNodes(test_2);
 	XCTAssertEqual(result, expected_2, @"Expected [4]");
-}
-
-- (void)testPerformanceExample {
-    [self measureBlock:^{
-		vector<int>	result;
-		Solution	solution;
-
-		result = solution.eventualSafeNodes(test_1);
-		XCTAssert(result[0] >= 0);
-    }];
 }
 
 @end
