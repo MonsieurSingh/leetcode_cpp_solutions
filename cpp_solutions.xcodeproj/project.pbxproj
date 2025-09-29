@@ -42,6 +42,7 @@
 				0547_number_of_provinces.mm,
 				0802_find_eventual_safe_states.mm,
 				0841_keys_and_rooms.mm,
+				1039_minimum_score_triangulation_of_polygon.mm,
 				1129_shortest_path_with_alternating_colors.mm,
 				test_input.cpp,
 			);
@@ -53,6 +54,7 @@
 				0547_number_of_provinces.mm,
 				0802_find_eventual_safe_states.mm,
 				0841_keys_and_rooms.mm,
+				1039_minimum_score_triangulation_of_polygon.mm,
 				1129_shortest_path_with_alternating_colors.mm,
 				nlohmann/json.hpp,
 				test_input.cpp,
@@ -63,11 +65,17 @@
 		B3ACDA422E8555DB0099596F /* Exceptions for "solutions" folder in "cpp_tests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				include/0785_is_graph_bipartite.hpp,
+				include/0797_all_paths_from_source_to_target.hpp,
 				include/976_largest_perimeter_triangle.hpp,
+				include/1039_minimum_score_triangulation_of_polygon.hpp,
 				src/0547_number_of_provinces.cpp,
+				src/0785_is_graph_bipartite.cpp,
+				src/0797_all_paths_from_source_to_target.cpp,
 				src/0802_find_eventual_safe_states.cpp,
 				src/0841_keys_and_rooms.cpp,
 				src/976_largest_perimeter_triangle.cpp,
+				src/1039_minimum_score_triangulation_of_polygon.cpp,
 				src/1129_shortest_path_with_alternating_colors.cpp,
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
