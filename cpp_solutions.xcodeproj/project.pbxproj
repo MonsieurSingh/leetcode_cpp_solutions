@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B3A355612E93C4C400B4F373 /* union_find.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BC9B2C2E93C3FB007FCE6A /* union_find.h */; };
+		B3B5F5772E942C9200743C75 /* union_find.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B3B5F5762E942C9200743C75 /* union_find.hpp */; };
+		B3B5F5782E942C9200743C75 /* union_find.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B3B5F5762E942C9200743C75 /* union_find.hpp */; };
+		B3BC9B3A2E93C43C007FCE6A /* libunion-find.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC9B392E93C43C007FCE6A /* libunion-find.a */; };
+		B3D8F1272E942AF100CC55CB /* libunion-find.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8F1242E942AF100CC55CB /* libunion-find.a */; };
+		B3D8F12A2E942B0800CC55CB /* union_find.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BC9B2C2E93C3FB007FCE6A /* union_find.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D8F1232E942AF100CC55CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BC9B2D2E93C3FB007FCE6A /* union-find.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B30B03B12E6F35330002F336;
+			remoteInfo = "union-find";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B318FD722E72373A00E48A5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -33,6 +52,24 @@
 		B3ACDA2D2E85458A0099596F /* cpp_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpp_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3ACDA5C2E8805080099596F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B3ACDA612E881B750099596F /* update_readme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = update_readme; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B5F5762E942C9200743C75 /* union_find.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = union_find.hpp; sourceTree = "<group>"; };
+		B3BC9B1A2E93C3FB007FCE6A /* knuth_shuffle.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = knuth_shuffle.ml; sourceTree = "<group>"; };
+		B3BC9B1B2E93C3FB007FCE6A /* maze.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = maze.ml; sourceTree = "<group>"; };
+		B3BC9B1C2E93C3FB007FCE6A /* uf_nb_classes.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = uf_nb_classes.ml; sourceTree = "<group>"; };
+		B3BC9B1D2E93C3FB007FCE6A /* unfion_find_element.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = unfion_find_element.ml; sourceTree = "<group>"; };
+		B3BC9B1F2E93C3FB007FCE6A /* ackermann.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = ackermann.ml; sourceTree = "<group>"; };
+		B3BC9B202E93C3FB007FCE6A /* union_find_by_rank.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = union_find_by_rank.ml; sourceTree = "<group>"; };
+		B3BC9B212E93C3FB007FCE6A /* union_find_naive.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = union_find_naive.ml; sourceTree = "<group>"; };
+		B3BC9B222E93C3FB007FCE6A /* union_find_path_compression.ml */ = {isa = PBXFileReference; lastKnownFileType = text; path = union_find_path_compression.ml; sourceTree = "<group>"; };
+		B3BC9B252E93C3FB007FCE6A /* unit_tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unit_tests.m; sourceTree = "<group>"; };
+		B3BC9B272E93C3FB007FCE6A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B3BC9B282E93C3FB007FCE6A /* uf_create.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uf_create.c; sourceTree = "<group>"; };
+		B3BC9B292E93C3FB007FCE6A /* uf_destroy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uf_destroy.c; sourceTree = "<group>"; };
+		B3BC9B2A2E93C3FB007FCE6A /* uf_find.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uf_find.c; sourceTree = "<group>"; };
+		B3BC9B2B2E93C3FB007FCE6A /* uf_union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uf_union.c; sourceTree = "<group>"; };
+		B3BC9B2C2E93C3FB007FCE6A /* union_find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = union_find.h; sourceTree = "<group>"; };
+		B3BC9B2D2E93C3FB007FCE6A /* union-find.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "union-find.xcodeproj"; sourceTree = "<group>"; };
+		B3BC9B392E93C43C007FCE6A /* libunion-find.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libunion-find.a"; path = "../../../../Library/Developer/Xcode/DerivedData/union-find-ghbasdmsqyarasaicheoelxjaekh/Build/Products/Debug/libunion-find.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -44,7 +81,9 @@
 				0841_keys_and_rooms.mm,
 				1039_minimum_score_triangulation_of_polygon.mm,
 				1129_shortest_path_with_alternating_colors.mm,
+				nlohmann/json.hpp,
 				test_input.cpp,
+				test_input.hpp,
 			);
 			target = B318FD732E72373A00E48A5D /* cpp_solutions */;
 		};
@@ -65,11 +104,25 @@
 		B3ACDA422E8555DB0099596F /* Exceptions for "solutions" folder in "cpp_tests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				include/0002_add_two_numbers.hpp,
+				include/0011_container_with_most_water.hpp,
+				include/0407_trapping_rain_water_II.hpp,
+				include/0417_pacific_atlantic_water_flow.hpp,
+				include/0778_swim_in_rising_water.hpp,
 				include/0785_is_graph_bipartite.hpp,
 				include/0797_all_paths_from_source_to_target.hpp,
 				include/976_largest_perimeter_triangle.hpp,
 				include/1039_minimum_score_triangulation_of_polygon.hpp,
+				include/1518_water_bottles.hpp,
+				include/2221_find_triangular_sum_of_an_array.hpp,
+				include/3100_water_bottles_II.hpp,
+				include/3271_hash_divided_string.hpp,
+				src/0002_add_two_numbers.cpp,
+				src/0011_container_with_most_water.cpp,
+				src/0407_trapping_rain_water_II.cpp,
+				src/0417_pacific_atlantic_water_flow.cpp,
 				src/0547_number_of_provinces.cpp,
+				src/0778_swim_in_rising_water.cpp,
 				src/0785_is_graph_bipartite.cpp,
 				src/0797_all_paths_from_source_to_target.cpp,
 				src/0802_find_eventual_safe_states.cpp,
@@ -77,8 +130,33 @@
 				src/976_largest_perimeter_triangle.cpp,
 				src/1039_minimum_score_triangulation_of_polygon.cpp,
 				src/1129_shortest_path_with_alternating_colors.cpp,
+				src/1518_water_bottles.cpp,
+				src/2221_find_triangular_sum_of_an_array.cpp,
+				src/3100_water_bottles_II.cpp,
+				src/3271_hash_divided_string.cpp,
 			);
 			target = B3ACDA2C2E85458A0099596F /* cpp_tests */;
+		};
+		B3D8F1292E942AF900CC55CB /* Exceptions for "solutions" folder in "cpp_solutions" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				include/0002_add_two_numbers.hpp,
+				include/0407_trapping_rain_water_II.hpp,
+				include/0547_number_of_provinces.hpp,
+				include/0778_swim_in_rising_water.hpp,
+				include/0785_is_graph_bipartite.hpp,
+				include/0797_all_paths_from_source_to_target.hpp,
+				include/0802_find_eventual_safe_states.hpp,
+				include/0841_keys_and_rooms.hpp,
+				include/976_largest_perimeter_triangle.hpp,
+				include/1039_minimum_score_triangulation_of_polygon.hpp,
+				include/1129_shortest_path_with_alternating_colors.hpp,
+				include/1518_water_bottles.hpp,
+				include/2221_find_triangular_sum_of_an_array.hpp,
+				include/3100_water_bottles_II.hpp,
+				include/3271_hash_divided_string.hpp,
+			);
+			target = B318FD732E72373A00E48A5D /* cpp_solutions */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -86,6 +164,7 @@
 		B318FD762E72373A00E48A5D /* solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				B3D8F1292E942AF900CC55CB /* Exceptions for "solutions" folder in "cpp_solutions" target */,
 				B3ACDA422E8555DB0099596F /* Exceptions for "solutions" folder in "cpp_tests" target */,
 			);
 			path = solutions;
@@ -112,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D8F1272E942AF100CC55CB /* libunion-find.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BC9B3A2E93C43C007FCE6A /* libunion-find.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +221,7 @@
 				B3ACDA3A2E8545CA0099596F /* tests */,
 				B318FD762E72373A00E48A5D /* solutions */,
 				B3ACDA622E881B750099596F /* update_readme */,
+				B3BC9B192E93C3FB007FCE6A /* Frameworks */,
 				B318FD752E72373A00E48A5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,6 +236,96 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B3BC9B192E93C3FB007FCE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B392E93C43C007FCE6A /* libunion-find.a */,
+				B3BC9B302E93C3FB007FCE6A /* union-find */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3BC9B1E2E93C3FB007FCE6A /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B1A2E93C3FB007FCE6A /* knuth_shuffle.ml */,
+				B3BC9B1B2E93C3FB007FCE6A /* maze.ml */,
+				B3BC9B1C2E93C3FB007FCE6A /* uf_nb_classes.ml */,
+				B3BC9B1D2E93C3FB007FCE6A /* unfion_find_element.ml */,
+			);
+			path = exercises;
+			sourceTree = "<group>";
+		};
+		B3BC9B232E93C3FB007FCE6A /* theory */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B1F2E93C3FB007FCE6A /* ackermann.ml */,
+				B3BC9B202E93C3FB007FCE6A /* union_find_by_rank.ml */,
+				B3BC9B212E93C3FB007FCE6A /* union_find_naive.ml */,
+				B3BC9B222E93C3FB007FCE6A /* union_find_path_compression.ml */,
+			);
+			path = theory;
+			sourceTree = "<group>";
+		};
+		B3BC9B242E93C3FB007FCE6A /* Ocaml */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B1E2E93C3FB007FCE6A /* exercises */,
+				B3BC9B232E93C3FB007FCE6A /* theory */,
+			);
+			path = Ocaml;
+			sourceTree = "<group>";
+		};
+		B3BC9B262E93C3FB007FCE6A /* unit_tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B252E93C3FB007FCE6A /* unit_tests.m */,
+			);
+			path = unit_tests;
+			sourceTree = "<group>";
+		};
+		B3BC9B2E2E93C3FB007FCE6A /* union-find */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B242E93C3FB007FCE6A /* Ocaml */,
+				B3BC9B262E93C3FB007FCE6A /* unit_tests */,
+				B3BC9B272E93C3FB007FCE6A /* .gitignore */,
+				B3BC9B282E93C3FB007FCE6A /* uf_create.c */,
+				B3BC9B292E93C3FB007FCE6A /* uf_destroy.c */,
+				B3BC9B2A2E93C3FB007FCE6A /* uf_find.c */,
+				B3BC9B2B2E93C3FB007FCE6A /* uf_union.c */,
+				B3BC9B2C2E93C3FB007FCE6A /* union_find.h */,
+				B3B5F5762E942C9200743C75 /* union_find.hpp */,
+				B3BC9B2D2E93C3FB007FCE6A /* union-find.xcodeproj */,
+			);
+			path = "union-find";
+			sourceTree = "<group>";
+		};
+		B3BC9B2F2E93C3FB007FCE6A /* C */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B2E2E93C3FB007FCE6A /* union-find */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		B3BC9B302E93C3FB007FCE6A /* union-find */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC9B2F2E93C3FB007FCE6A /* C */,
+			);
+			name = "union-find";
+			path = "../../../union-find";
+			sourceTree = "<group>";
+		};
+		B3BC9B312E93C3FB007FCE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8F1242E942AF100CC55CB /* libunion-find.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -161,6 +333,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A355612E93C4C400B4F373 /* union_find.h in Headers */,
+				B3B5F5782E942C9200743C75 /* union_find.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D8F1282E942AF900CC55CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D8F12A2E942B0800CC55CB /* union_find.h in Headers */,
+				B3B5F5772E942C9200743C75 /* union_find.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B318FD7B2E72373A00E48A5D /* Build configuration list for PBXNativeTarget "cpp_solutions" */;
 			buildPhases = (
+				B3D8F1282E942AF900CC55CB /* Headers */,
 				B318FD702E72373A00E48A5D /* Sources */,
 				B318FD712E72373A00E48A5D /* Frameworks */,
 				B318FD722E72373A00E48A5D /* CopyFiles */,
@@ -264,6 +448,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B318FD752E72373A00E48A5D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3BC9B312E93C3FB007FCE6A /* Products */;
+					ProjectRef = B3BC9B2D2E93C3FB007FCE6A /* union-find.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B318FD732E72373A00E48A5D /* cpp_solutions */,
@@ -272,6 +462,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3D8F1242E942AF100CC55CB /* libunion-find.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libunion-find.a";
+			remoteRef = B3D8F1232E942AF100CC55CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B3ACDA2B2E85458A0099596F /* Resources */ = {
